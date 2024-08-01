@@ -1,0 +1,55 @@
+/* Login.css */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background for the page */
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-title {
+    color: #ff7e5f; /* Gradient start color */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .login-input {
+    margin-bottom: 20px;
+  }
+  
+  .login-button {
+    margin-top: 20px;
+  }
+  
+  .login-button .MuiButton-contained {
+    background-color: #ff7e5f;
+    color: white;
+  }
+  
+  .login-button .MuiButton-outlined {
+    border-color: #feb47b;
+    color: #feb47b;
+  }
+  
+  .login-button .MuiButton-outlined:hover {
+    background-color: #feb47b;
+    color: white;
+  }
+  
